@@ -1,0 +1,22 @@
+{
+   "name": "BackendProject",
+   "version": "0.0.1",
+   "description": "Awesome project developed with TypeORM.",
+   "devDependencies": {
+      "@types/node": "^8.0.29",
+      "ts-node": "3.3.0",
+      "typescript": "3.3.3333"
+   },
+   "dependencies": {
+      "express": "^4.17.1",
+      "iqphone": "^1.0.0",
+      "pg": "^7.3.0",
+      "reflect-metadata": "^0.1.10",
+      "typeorm": "0.2.28",
+      "validate.js": "^0.13.1"
+   },
+   "scripts": {
+      "start": "ts-node src/index.ts",
+      "watch": "nodemon src/index.ts"
+   }
+}
